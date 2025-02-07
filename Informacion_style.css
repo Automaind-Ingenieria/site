@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+    list-style: none;
+}
+body{
+  font-family: 'Poppins',sans-serif;
+}
+
+.container{
+        max-width: 1200px;
+        margin:0 auto; 
+}
+/*informacion mas imagen-----------------------------------------------------------------------------------------------------------  */
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(imagenes/banner2.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:65vh;
+    display:flex;
+    align-items: center;
+}
+.menu{
+    position:absolute ;
+    top:5px;
+    left:0;
+    right:0;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.logo{
+    color: #FFCF00;
+    font-size: 25px;
+    font-weight:800;   
+}
+.menu .navbar ul li{
+    position:relative;
+    float:left;
+}
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding:20px ;
+    color :#FFFDFC;
+    display: block;
+    font-weight: 600; 
+}
+.menu .navbar ul li a:hover{
+    color: #FFCF00;
+}
+#menu{
+    display:none;
+}
+.menu_icono{
+    width: 60px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-content {
+    text-align: center;
+}
+.header-content h1 {
+    font-size :80px;
+    line-height: 100px;
+    color:#F9FAFC;
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+.header-content p{
+    font-size:30px;
+    color: #F9FAFC;
+    padding:0 50px;
+    margin-bottom:20px ;
+}
+/* Blog automaind------------------------------------------------------------------------------------------------------ */
+.bloga img{
+    width: 650px;
+}
+.bloga{
+  
+    padding: 30px 80px;
+    background-color: #D3D3D3;
+    position: relative;
+    text-align: center;
+    color: #1D3C6A;
+}
+.bloga p{
+    font-size: 18px;
+    color: #323337;
+    line-height: 25px; 
+    padding: 0 30px;
+    margin-bottom:5px;
+}
+.bloga h2{
+    font-size: 80px;
+    color: #1D3C6A;
+    line-height: 30px; 
+    padding: 40px 5px;
+    margin-bottom:5px;
+}
+.bloga-content{
+    display: flex;
+    justify-content: space-between;
+}
+.bloga-1{
+    padding: 10px 10px ;
+}
+.bloga-1 img {
+    width: 100px;
+    border-radius: 0;
+    margin-bottom: 0;
+} 
+.bloga-2{
+    padding: 20px 20px ;
+}
+.bloga-2 img {
+    width: 300px;
+    border-radius: 0;
+    margin-bottom: 0;
+} 
+.bloga-1 h2{
+    font-size: 30px;
+    color: #323337;
+    line-height: 30px; 
+    padding: 0 29px;
+    margin-bottom:25px;
+}
+.bloga-1 p{
+    font-size: 18px;
+    color: #323333;
+    line-height: 25px; 
+    padding: 0 30px;
+    margin-bottom:25px;
+}
+/* deslizable lateral Mision----------------------------------------------- */
+  .Mision{
+    background-image: url(imagenes/techo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .Vision{
+    background-image: url(imagenes/techo2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .Valores{
+    background-image: url(imagenes/techo3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .general-1 h2{
+    font-size:55px;
+    line-height: 70px;
+    color: #262626;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .general-1 p{
+      text-align: justify; /* Justifica el texto a ambos márgenes */
+      line-height: 1.6; /* Ajusta la altura de la línea para que el texto tenga un espaciado adecuado */
+      font-size: 16px; /* Tamaño de fuente cómodo para lectura */
+      font-family: 'Poppins', sans-serif; /* Fuente que se vea moderna y legible */
+      color: #333333; /* Color oscuro para un buen contraste */
+      margin: 20px; /* Espacio alrededor del párrafo */
+      padding: 10px; /* Espacio interno en el párrafo */
+      background-color: #f9f9f9; /* Fondo claro para que el texto resalte */
+      border-radius: 8px; /* Bordes redondeados para un toque suave */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para hacer que el párrafo se vea elevado */
+  
+  }
+/* tipos de instalacion energia solar ------------------------------------------*/
+.Solar{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(imagenes/energias.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px 0;
+}
+
+.Solar-content{
+  text-align: center;
+}
+
+.Solar-content h2{
+  font-size: 50px;
+  line-height: 70px;
+  color: #81C784;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding: 0 50px;
+}
+
+.Solar-content p {
+   text-align: justify; /* Justifica el texto */
+    background-color: rgba(124, 124, 124, 0.434); /* Fondo blanco con 20% de transparencia */
+    color: white; /* Letra blanca */
+    padding: 15px; /* Espaciado interno alrededor del texto */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    margin: 20px; /* Margen alrededor del elemento */
+}
+
+.Solar-group{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.Solar-1{
+  padding: 0 100px;
+}
+
+.Solar-1 img {
+  width: 80px;
+  margin-bottom: 0;
+}
+.Solar-2 img {
+  width: 700px;
+  margin-bottom: 15px;
+}
+.Solar-3 img {
+
+  width: 700px;
+  margin-bottom: 15px;
+}
+.comparacion img {
+  align-items: center;
+  width: 700px;
+  margin-bottom: 15px;
+}
+
+.Solar-1 h3{
+  text-align: justify; /* Justifica el texto a ambos márgenes */
+  line-height: 1.6; /* Ajusta la altura de la línea para que el texto tenga un espaciado adecuado */
+  font-size: 16px; /* Tamaño de fuente cómodo para lectura */
+  font-family: 'Poppins', sans-serif; /* Fuente que se vea moderna y legible */
+  color: #333333; /* Color oscuro para un buen contraste */
+  margin: 20px; /* Espacio alrededor del párrafo */
+  padding: 10px; /* Espacio interno en el párrafo */
+  background-color: #f9f9f9; /* Fondo claro para que el texto resalte */
+  border-radius: 8px; /* Bordes redondeados para un toque suave */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para hacer que el párrafo se vea elevado */
+
+}
+/* deslizable lateral portones----------------------------------------------- */
+.general{
+  display:flex;
+}
+
+.general-1{
+  width:50;
+  padding: 100px 250px 100px 100px;
+  background-color: #E1E2E6;
+}
+
+.general-2{
+  background-image: url(imagenes/porton.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.general-3{
+  background-image: url(imagenes/portones.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.general-4{
+  background-image: url(imagenes/portones1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+/* parte del blog ----------------------------------------------------------------------- */
+.blog{
+  padding: 30px 0;
+  background-color: #D3D3D3;
+  position: relative;
+  text-align: center;
+  color: #333333;
+}
+.blog h2{
+  text-align: justify; /* Justifica el texto a ambos márgenes */
+  line-height: 1.6; /* Ajusta la altura de la línea para que el texto tenga un espaciado adecuado */
+  font-size: 16px; /* Tamaño de fuente cómodo para lectura */
+  font-family: 'Poppins', sans-serif; /* Fuente que se vea moderna y legible */
+  color: #333333; /* Color oscuro para un buen contraste */
+  margin: 20px; /* Espacio alrededor del párrafo */
+  padding: 10px; /* Espacio interno en el párrafo */
+  background-color: #f9f9f9; /* Fondo claro para que el texto resalte */
+  border-radius: 8px; /* Bordes redondeados para un toque suave */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para hacer que el párrafo se vea elevado */
+}
+.blog-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-1{
+  padding: 5px 10px ;
+}
+
+.blog-1 img {
+  width: 200px;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.blog-1 h2{
+  text-transform: uppercase;
+  text-align: center; /* Justifica el texto a ambos márgenes */
+  line-height: 1.6; /* Ajusta la altura de la línea para que el texto tenga un espaciado adecuado */
+  font-size: 16px; /* Tamaño de fuente cómodo para lectura */
+  font-family: 'Poppins', sans-serif; /* Fuente que se vea moderna y legible */
+  color: #ffffff; /* Color oscuro para un buen contraste */
+  margin: 20px; /* Espacio alrededor del párrafo */
+  padding: 10px; /* Espacio interno en el párrafo */
+  background-color: #5c5c5c; /* Fondo claro para que el texto resalte */
+  border-radius: 8px; /* Bordes redondeados para un toque suave */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para hacer que el párrafo se vea elevado */
+}
+.blog h3{
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #323333;
+  line-height: 25px; 
+  padding: 0 25px;
+  margin-bottom:30px;
+}
+
+.blog-1 p{
+  text-align: justify; /* Justifica el texto a ambos márgenes */
+  line-height: 1.6; /* Ajusta la altura de la línea para que el texto tenga un espaciado adecuado */
+  font-size: 16px; /* Tamaño de fuente cómodo para lectura */
+  font-family: 'Poppins', sans-serif; /* Fuente que se vea moderna y legible */
+  color: #333333; /* Color oscuro para un buen contraste */
+  margin: 20px; /* Espacio alrededor del párrafo */
+  padding: 10px; /* Espacio interno en el párrafo */
+  background-color: #f9f9f9; /* Fondo claro para que el texto resalte */
+  border-radius: 8px; /* Bordes redondeados para un toque suave */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para hacer que el párrafo se vea elevado */
+}
+
+/* footer o banner final --------------------------------------------------------------------------------------------------------------*/
+
+.footer{
+    padding: 100px 0;
+    background-color: #000000;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between ;
+  }
+  
+  .link h3 {
+    font-size: 18px;
+    color: #F9FAFC;
+    margin-bottom: 15px;
+  }
+  
+  .link a {
+    font-size: 16px;
+    color: #C5C5C5;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+
+  /*Botones--------------------------------------------------------------------------------------------------------- */
+
+.Boton_Automaind{
+    display:inline-block;
+    padding: 11px 35px;
+    background-color: #81C784;
+    color: #333333;;
+    text-transform: uppercase;
+  }
+  
+  .Boton_Automaind:hover{
+    background-color: #FFCF00;
+  }
+  
+  .Boton_Mision{
+    display:inline-block;
+    padding: 11px 35px;
+    background-color: #81C784;
+    color: #333333;
+    text-transform: uppercase;
+  }
+  
+  .Boton_Mision:hover{
+    background-color: #FFCF00;
+  }
+  
+  .Boton_Paneles{
+    display:inline-block;
+    padding: 11px 35px;
+    background-color: #81C784;
+    color: #333333;
+    text-transform: uppercase;
+  }
+  
+  .Boton_Paneles:hover{
+    background-color: #FFCF00;
+  }
+  
+  .Boton_Vision{
+    display:inline-block;
+    padding: 11px 35px;
+    background-color: #81C784;
+    color: #333333;
+    text-transform: uppercase;
+  }
+  
+  .Boton_Vision:hover{
+    background-color: #FFCF00;
+  }
+  
+  .Boton_Valores{
+    display:inline-block;
+    padding: 11px 35px;
+    background-color: #81C784;
+    color: #333333;
+    text-transform: uppercase;
+  }
+  
+  .Boton_Valores:hover{
+    background-color: #FFCF00;
+  }
+
+  .Boton_Camaras{
+    display:inline-block;
+    padding: 11px 35px;
+    background-color: #81C784;
+    color: #333333;;
+    text-transform: uppercase;
+  }
+  
+  .Boton_Camaras:hover{
+    background-color: #FFCF00;
+  }
+
+  
+.Boton_Porton_Standart{
+  display:inline-block;
+  padding: 11px 35px;
+  background-color: #81C784;
+  color: #333333;;
+  text-transform: uppercase;
+}
+
+.Boton_Porton_Standart:hover{
+  background-color: #FFCF00;
+}
+
+.Boton_Porton_Home{
+  display:inline-block;
+  padding: 11px 35px;
+  background-color: #81C784;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.Boton_Porton_Home:hover{
+  background-color: #FFCF00;
+}
+
+.Boton_Porton_Condominium{
+  display:inline-block;
+  padding: 11px 35px;
+  background-color: #81C784;
+  color: #333333;;
+  text-transform: uppercase;
+}
+
+.Boton_Porton_Condominium:hover{
+  background-color: #FFCF00;
+}

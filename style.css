@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+    list-style: none;
+}
+body{
+  font-family: 'Poppins',sans-serif;
+}
+
+.container{
+        max-width: 1200px;
+        margin:0 auto; 
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(imagenes/banner.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:70vh;
+    display:flex;
+    align-items: center;
+}
+
+.menu{
+    position:absolute ;
+    top:5px;
+    left:0;
+    right:0;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.logo{
+    color: #FFCF00;
+    font-size: 25px;
+    font-weight:800;   
+}
+
+.menu .navbar ul li{
+    position:relative;
+    float:left;
+}
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding:20px ;
+    color :#FFFDFC;
+    display: block;
+    font-weight: 600;
+   
+}
+
+.menu .navbar ul li a:hover{
+    color: #FFCF00;
+}
+
+#menu{
+    display:none;
+}
+
+.menu_icono{
+    width: 60px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size :80px;
+    line-height: 100px;
+    color:#F9FAFC;
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+
+.header-content p{
+    font-size:30px;
+    color: #F9FAFC;
+    padding:0 50px;
+    margin-bottom:20px ;
+}
+
+
+/* Quienes somos------------------------------------------------------------------------------------------- */
+.Quienes {
+    padding: 30px 0;
+    background-color: #E1E2E6;
+    position: relative;
+}
+.Quienes-content{
+    text-align: center;
+}
+.Quienes-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 50px;
+    margin-bottom:15px;
+}
+
+.txt-p{
+    font-size: 20px;
+    color: #414247;
+    padding: 0 40px;
+    margin-bottom: 5px;
+}
+.Quienes-group{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+.Quienes-1{
+  padding: 0 20px;
+}
+.Quienes-1 img{
+  width: 200px;
+}
+.Quienes-1 h3{
+  color:#323337;
+  font-size:20px;
+  margin-bottom: 5px;
+}
+
+/* tipos de instalacion energia solar ------------------------------------------*/
+.Solar{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(imagenes/energias.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px 0;
+}
+
+.Solar-content{
+  text-align: center;
+}
+
+.Solar-content h2{
+  font-size: 50px;
+  line-height: 70px;
+  color: #81C784;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  padding: 0 70px;
+}
+
+.Solar-content p {
+  font-size: 20px;
+  color: #C5C5C5;
+  margin-bottom: 50px;
+  padding: 0 100px;
+}
+
+.Solar-group{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.Solar-1{
+  padding: 0 100px;
+}
+
+.Solar-1 img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.Solar-1 h3{
+  color:#F9FAFC;
+  font-size: 30px;
+}
+
+/* deslizable lateral portones----------------------------------------------- */
+.general{
+  display:flex;
+}
+
+.general-1{
+  width:50;
+  padding: 100px 250px 100px 100px;
+  background-color: #E1E2E6;
+}
+
+.general-2{
+  background-image: url(imagenes/porton.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.general-3{
+  background-image: url(imagenes/portones.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.general-4{
+  background-image: url(imagenes/portones1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+h2{
+  font-size:55px;
+  line-height: 70px;
+  color: #323337;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+p{
+  font-size: 16px;
+  color: #414247;
+  margin: 25px 0 45px 0;
+}
+/* parte del blog ----------------------------------------------------------------------- */
+.blog{
+  padding: 30px 0;
+  background-color: #D3D3D3;
+  position: relative;
+  text-align: center;
+  color: #1D3C6A;
+}
+.blog h2{
+  font-size: 60px;
+  color: #1D3C6A;
+  line-height: 25px; 
+  padding: 0 5px;
+  margin-bottom:15px;
+}
+.blog-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-1{
+  padding: 5px 10px ;
+}
+
+.blog-1 img {
+  width: 200px;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.blog-1 h2{
+  font-size: 35px;
+  color: #323337;
+  line-height: 5px; 
+  padding: 0 5px;
+  margin-bottom:5px;
+}
+
+/* footer o banner final --------------------------------------------------------------------------------------------------------------*/
+
+.footer{
+  padding: 100px 0;
+  background-color: #000000;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between ;
+}
+
+.link h3 {
+  font-size: 18px;
+  color: #F9FAFC;
+  margin-bottom: 15px;
+}
+
+.link a {
+  font-size: 16px;
+  color: #C5C5C5;
+  display: block;
+  margin-bottom: 15px;
+}
+/* paguina responsive(que se adapta a celular */
+@media(max-width:  991px){
+  .menu{
+    padding: 30px;
+  }
+  .menu label{
+    display: initial;
+  }
+  .menu .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #323337;
+    display: none;
+  }
+
+  .menu .navbar ul li{
+  width: 100%;
+  }
+  #menu:checked ~ .navbar{
+    display: initial;
+  }
+  .header{
+    min-height: 0vh;
+  }
+  .header-content{
+    padding: 100px 30px;
+  }
+
+  .header-content p{
+    padding: 0;
+  }
+  .Quienes{
+    padding: 30px;
+  }
+  .Quienes-content h2{
+    padding: 0;
+  }
+  .txt-p{
+    padding: 0;
+  }
+  .Quienes-group{
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .Quienes-img{
+    display: none;
+  }
+  .Solar{
+    padding: 30px;
+  }
+  .Solar-content p{
+    padding: 0;
+  }
+  .Solar-group{
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .Solar-1{
+    margin-bottom: 25px;
+  }
+  .general{
+    flex-direction: column ;
+  }
+  .general-1{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+  .general-2, .general-3{
+    display : none;
+  }
+  .blog{
+    padding: 30px;
+  }
+  .blog-content{
+    flex-direction: column;
+  }
+  .blog-1{
+    padding: 0;
+  }
+  .footer{
+    padding: 30px;
+  }
+  .footer-content{
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+/*Botones--------------------------------------------------------------------------------------------------------- */
+
+.Boton_Automaind{
+  display:inline-block;
+  padding: 11px 35px;
+  background-color: #1D3C6A;
+  color: #F9FAFC;
+  text-transform: uppercase;
+}
+
+.Boton_Automaind:hover{
+  background-color: #FFCF00;
+}
+
+.Boton_Mision{
+  display:inline-block;
+  padding: 11px 35px;
+  background-color: #1D3C6A;
+  color: #F9FAFC;
+  text-transform: uppercase;
+}
+
+.Boton_Mision:hover{
+  background-color: #FFCF00;
+}
+
+.Boton_Paneles{
+  display:inline-block;
+  padding: 11px 35px;
+  background-color: #1D3C6A;
+  color: #F9FAFC;
+  text-transform: uppercase;
+}
+
+.Boton_Paneles:hover{
+  background-color: #FFCF00;
+}
+
+.Boton_Porton_Standart{
+  display:inline-block;
+  padding: 11px 35px;
+  background-color: #1D3C6A;
+  color: #F9FAFC;
+  text-transform: uppercase;
+}
+
+.Boton_Porton_Standart:hover{
+  background-color: #FFCF00;
+}
+
+.Boton_Porton_Home{
+  display:inline-block;
+  padding: 11px 35px;
+  background-color: #1D3C6A;
+  color: #F9FAFC;
+  text-transform: uppercase;
+}
+
+.Boton_Porton_Home:hover{
+  background-color: #FFCF00;
+}
+
+.Boton_Porton_Condominium{
+  display:inline-block;
+  padding: 11px 35px;
+  background-color: #1D3C6A;
+  color: #F9FAFC;
+  text-transform: uppercase;
+}
+
+.Boton_Porton_Condominium:hover{
+  background-color: #FFCF00;
+}
+
+.Boton_Camaras{
+  display:inline-block;
+  padding: 11px 35px;
+  background-color: #1D3C6A;
+  color: #F9FAFC;
+  text-transform: uppercase;
+}
+
+.Boton_Camaras:hover{
+  background-color: #FFCF00;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+    list-style: none;
+}
+body{
+  font-family: 'Poppins',sans-serif;
+}
+
+.container{
+        max-width: 1200px;
+        margin:0 auto; 
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(imagenes/Paneles.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:70vh;
+    display:flex;
+    align-items: center;
+}
+
+.menu{
+    position:absolute ;
+    top:5px;
+    left:0;
+    right:0;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.logo{
+    color: #FFCF00;
+    font-size: 25px;
+    font-weight:800;   
+}
+
+.menu .navbar ul li{
+    position:relative;
+    float:left;
+}
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding:20px ;
+    color :#FFFDFC;
+    display: block;
+    font-weight: 600;
+   
+}
+
+.menu .navbar ul li a:hover{
+    color: #FFCF00;
+}
+
+#menu{
+    display:none;
+}
+
+.menu_icono{
+    width: 60px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size :80px;
+    line-height: 100px;
+    color:#F9FAFC;
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+
+.header-content p{
+    font-size:30px;
+    color: #F9FAFC;
+    padding:0 50px;
+    margin-bottom:20px ;
+}
+
+.Boton_Informacion{
+    display:inline-block;
+    padding: 11px 35px;
+    background-color: #81C784;
+    color: #333333;
+    text-transform: uppercase;
+  }
+  
+  .Boton_Informacion:hover{
+    background-color: #FFCF00;
+  }
+/* footer o banner final --------------------------------------------------------------------------------------------------------------*/
+
+.footer{
+    padding: 100px 0;
+    background-color: #000000;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between ;
+  }
+  
+  .link h3 {
+    font-size: 18px;
+    color: #F9FAFC;
+    margin-bottom: 15px;
+  }
+  
+  .link a {
+    font-size: 16px;
+    color: #C5C5C5;
+    display: block;
+    margin-bottom: 15px;
+  }
