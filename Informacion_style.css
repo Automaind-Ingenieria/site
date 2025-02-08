@@ -347,7 +347,7 @@ body{
   text-transform: uppercase;
   font-size: 60px;
   color: #323333;
-  line-height: 25px; 
+  line-height: 50px; 
   padding: 0 25px;
   margin-bottom:30px;
 }
@@ -500,4 +500,125 @@ body{
 
 .Boton_Porton_Condominium:hover{
   background-color: #FFCF00;
+}
+
+/* ENCABEZADO RESPONSIVE --------------------------------------------------------------- */
+@media(max-width:  991px){
+  .menu{
+    padding: 30px;
+  }
+  .menu label{
+    display: initial;
+  }
+  .menu .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #323337;
+    display: none;
+  }
+
+  .menu .navbar ul li{
+  width: 100%;
+  }
+  #menu:checked ~ .navbar{
+    display: initial;
+  }
+
+  .header-content {
+    padding: 50px 15px;
+  }
+
+  .header-content h1 {
+    font-size: 2.5em; /* Ajustamos el tamaño en móvil */
+  }
+
+  .header-content p {
+    font-size: 1.1em;
+  }
+/* RESPONSIVE AUTOMAIND---------------------------------------------------- */
+
+.bloga img{
+  width:350px;
+}
+.bloga-1 img{
+  width:100px;
+}
+.bloga-2 img{
+  width:400px;
+}
+.bloga{
+  padding: 10px;
+}
+.bloga-1{
+  padding: 10px;
+}
+.bloga-content{
+  flex-direction: column;
+}
+
+/* MISION RESPONSIVE-------------------------------------------------------------------- */
+.general{
+  flex-direction: column ;
+}
+.general-1{
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+.general-2, .general-3{
+  display : none;
+}
+ 
+  /* PANELES SOLARES RESPONSIVE----------------------------------------------- */
+  .Solar{
+    padding: 5px;
+  }
+  .Solar-1{
+    padding: 10px;
+  }
+  .Solar-1 img{
+    width:100px;
+  }
+  .Solar-3 img{
+    width:450px;
+  }
+  .Solar-2 img{
+    width:450px;
+  }
+  .comparacion img{
+    width:450px;
+  }
+  .Solar-content p{
+    padding: 0;
+  }
+  .Solar-group{
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .Solar-1{
+    margin-bottom: 25px;
+  }
+  /* CAMARAS RESPONSIVE------------------------------------------------------ */
+  
+  .blog{
+    padding: 30px;
+  }
+  .blog-content{
+    flex-direction: column;
+  }
+  .blog-1{
+    padding: 0;
+  }
+
+  /* FOOTER RESPONSIVE---------------------------------------------------------- */
+  .footer{
+    padding: 30px;
+  }
+  .footer-content{
+    flex-direction: column;
+    text-align: center;
+  }
+
 }

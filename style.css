@@ -247,7 +247,7 @@ p{
 .blog h2{
   font-size: 60px;
   color: #1D3C6A;
-  line-height: 25px; 
+  line-height: 50px; 
   padding: 0 5px;
   margin-bottom:15px;
 }
@@ -321,16 +321,22 @@ p{
   #menu:checked ~ .navbar{
     display: initial;
   }
-  .header{
-    min-height: 0vh;
-  }
-  .header-content{
-    padding: 100px 30px;
+
+
+
+  .header-content {
+    padding: 50px 15px;
   }
 
-  .header-content p{
-    padding: 0;
+  .header-content h1 {
+    font-size: 2.5em; /* Ajustamos el tamaño en móvil */
   }
+
+  .header-content p {
+    font-size: 1.1em;
+  }
+
+
   .Quienes{
     padding: 30px;
   }

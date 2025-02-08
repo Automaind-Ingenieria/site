@@ -127,3 +127,86 @@ body{
     display: block;
     margin-bottom: 15px;
   }
+
+
+  /* responsiveeeeeeeee---------------------------------- */
+/*  menu no cambiar------------------------*/
+  @media(max-width:  991px){
+    .menu{
+      padding: 30px;
+    }
+    .menu label{
+      display: initial;
+    }
+    .menu .navbar{
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #323337;
+      display: none;
+    }
+  
+    .menu .navbar ul li{
+    width: 100%;
+    }
+    #menu:checked ~ .navbar{
+      display: initial;
+    }
+/* no cambiar  */
+    .header-content h1 {
+        font-size: 50px;
+        line-height: 60px;
+        margin-top: 100px;
+    }
+
+    .header-content p {
+        font-size: 20px;
+        padding: 0 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .link {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer .link h3 {
+        font-size: 16px;
+    }
+
+    .footer .link a {
+        font-size: 14px;
+    }
+}
+
+/* Para pantallas aún más pequeñas (móviles pequeños) */
+@media only screen and (max-width: 480px) {
+
+    .header-content h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .header-content p {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+    .menu .navbar ul li a {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .footer .link h3 {
+        font-size: 14px;
+    }
+
+    .footer .link a {
+        font-size: 12px;
+    }
+}
